@@ -5,7 +5,16 @@ Permite utilizar archivos de vídeos como protector de pantalla con XScreenSaver
 <img src="https://github.com/daltomi/xscr_video/raw/master/screenshot.png"/>
 
 
-### instalar.sh
+
+
+### Instalación
+
+Ejecutar el script `instalar.sh`
+
+
+### Descripción de los script's
+
+#### instalar.sh
 
 Se utiliza para verificar dependencias, copiar el script `xscr_video.sh` hacia `~/.local/bin` y
 modificar el archivo de configuración `~/.xscreensaver`
@@ -14,7 +23,7 @@ modificar el archivo de configuración `~/.xscreensaver`
         La instalación es local al usuario que ejecuta éste script.
 
 
-### xscr_video.sh
+#### xscr_video.sh
 
 Éste script se utilizará, luego de la instalación, por el programa `XScreenSaver`
 para reproducir vídeos como protector de pantalla.
@@ -27,7 +36,7 @@ se reproduce uno de ellos seleccionado aleatoriamente.
         MPV no repruducirá audio, en cualquier caso, modificar éste script para hacerlo.
 
 
-### optional/setup.pas (experimental)
+#### optional/setup.pas (experimental)
 
 Igual al script instalar.sh pero permite desinstalar, es decir, revertir los
 cambios en el archivo de configuración `~/.xscreensaver` y eliminar el script
